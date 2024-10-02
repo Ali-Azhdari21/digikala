@@ -1,0 +1,223 @@
+.footer {
+  width: 100%;
+  height: 1174px;
+  margin-top: 130px;
+  border-top: 1px solid #eae1e1;
+  svg {
+    margin-top: 35px;
+    margin-right: 30px;
+  }
+  .footer__top {
+    display: flex;
+    margin-right: 30px;
+    p {
+      font-family: var(--fontFamily);
+      font-size: 12px;
+      color: #242424;
+      margin-right: 10px;
+      margin-top: 10px;
+      display: block;
+    }
+  }
+  .footer__svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 190px;
+    a {
+      text-decoration: none;
+      .footer__svg__item {
+        display: flex !important;
+        margin-right: 13px;
+        svg {
+        }
+      }
+      p {
+        font-family: var(--fontFamily);
+        font-size: 11px;
+        color: #242424;
+        display: flex;
+        margin-right: 25px;
+      }
+    }
+  }
+  .footer__center {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 40px;
+    line-height: 40px;
+    .footer__p {
+      display: flex;
+      .footer__p__item {
+        width: 425px;
+        height: 248px;
+        a {
+          text-decoration: none;
+          font-family: var(--fontFamily);
+          span {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2d2e42;
+          }
+          p {
+            font-size: 13px;
+            color: #807d7d;
+          }
+          h4 {
+            color: #2d2e42;
+          }
+          .footer__p__item__svg {
+            a {
+              margin-top: -200px;
+              svg {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer__app {
+    display: flex;
+    width: 1637px;
+    height: 76px;
+    background-color: #3c4b6d;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    .footer__app1 {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      img {
+        margin-top: 6px;
+        width: 45px;
+        height: 45px;
+      }
+      p {
+        margin-right: 15px;
+        font-family: var(--fontFamily);
+        color: whitesmoke;
+        font-size: 22px;
+        font-weight: 500;
+      }
+    }
+    .footer__app2 {
+      display: flex;
+      margin-right: 740px;
+      margin-top: -20px;
+      svg {
+        margin-right: 15px;
+      }
+    }
+    .footer__app3 {
+      margin-top: 15px;
+      margin-right: 25px;
+      display: flex;
+      background-color: white;
+      width: 45px;
+      height: 45px;
+      border-radius: 7px;
+      img {
+        padding: 2px;
+      }
+    }
+  }
+  .footer__matn {
+    display: flex;
+    width: 1637px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #eee8e8;
+    margin-bottom: 40px;
+    .footer__matn__matn {
+      font-family: var(--fontFamily);
+      width: 1250px;
+      h3 {
+        margin-top: 50px;
+        font-size: 20px;
+        color: #656464;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #8e9091;
+        line-height: 20px;
+      }
+      p1 {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #e1e1e1;
+        display: block;
+      }
+      p2 {
+        margin-top: 12px;
+        margin-left: 2px;
+        font-size: 12px;
+        color: #19bfd3;
+        svg {
+          font-size: 11px;
+          margin-top: 10px !important;
+          margin-right: -0.1px;
+          color: #19bfd3;
+        }
+      }
+    }
+    .footer__matn__img {
+      margin-top: 40px;
+      margin-right: 63px;
+      img {
+        padding: 20px;
+        width: 105px;
+        height: 112px;
+        border: 1px solid #eee8e8;
+        border-radius: 9px;
+      }
+    }
+  }
+  .footer__matn2 {
+    font-family: var(--fontFamily);
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #eee8e8;
+    p {
+      color: #847f7f;
+      font-size: 12px;
+      margin-top: 40px;
+      margin-right: 355px;
+    }
+  }
+  .footer__end {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f1;
+    .footer__end__item1 {
+      border-bottom: 1px solid #e4dede;
+      a {
+        text-decoration: none;
+        margin-right: 65px;
+        svg {
+          width: 100px;
+          height: 60px;
+        }
+      }
+    }
+    .footer__end__item2 {
+      text-decoration: none;
+      margin-top: -20px;
+      a {
+        column-gap: 80px;
+        margin-right: 85px;
+        svg {
+          width: 100px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}

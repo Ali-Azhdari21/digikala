@@ -1,0 +1,78 @@
+.middle__amazing {
+  width: 80%;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  background-color: #eceeee;
+  margin-right: 170px;
+  margin-top: 10px;
+  border-radius: 15px;
+  .middle__amazing__center {
+    width: 656px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    background-color: #eceeee;
+    .middle__amazing__center__svg {
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+    span {
+      width: 112px;
+      height: 29px;
+      font-family: var(--fontFamily);
+      color: #ffffe7;
+      border-radius: 30px;
+      background-color: #029a49;
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 20px;
+      p {
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .middle__amazing__center__itam {
+    width: 684px;
+    height: inherit;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    img {
+      align-items: center;
+      justify-items: center;
+      padding-inline-start: 5px;
+      width: 78px;
+      height: 72px;
+      border-radius: 50px;
+      margin: 2px;
+    }
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 145px;
+      height: 48px;
+      color: #029a49;
+      border-radius: 30px;
+      background-color: #ffffff;
+      font-family: var(--fontFamily);
+      font-size: 13px;
+      font-weight: 600;
+      margin-right: 10px;
+      svg {
+        display: flex;
+        margin-right: 10px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

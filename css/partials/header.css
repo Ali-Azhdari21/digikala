@@ -1,0 +1,243 @@
+header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0 1px 1px #d0d0d0;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  .banner {
+    width: inherit;
+    height: 60px;
+    img {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+    }
+  }
+  .register {
+    width: inherit;
+    height: 68px;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+
+    .register__logo {
+      width: 15%;
+      height: inherit;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 0px 0px 0px 25.43px;
+    }
+    .register__search {
+      width: 65%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      padding: 0px 16px;
+      box-sizing: border-box;
+    }
+    input[type="text"] {
+      width: 650px;
+      height: 44px;
+      background-color: #f0f0f1;
+      border-radius: var(--borderRadiusSmall);
+      padding-right: 60px;
+      &::placeholder {
+        font-family: var(--fontFamily);
+      }
+    }
+
+    .register__login {
+      width: 20%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 20px;
+      .register__login__url {
+        width: 135px;
+        height: 40px;
+        border-radius: var(--borderRadiusSmall);
+        border: 1px solid lightgray;
+        a {
+          display: flex;
+          width: inherit;
+          height: inherit;
+          align-items: center;
+          justify-content: center;
+          font-family: var(--fontFamily);
+          font-size: 12px;
+          font-weight: bold;
+          color: black;
+          text-decoration: none;
+          column-gap: 5px;
+          .register__login__url__line {
+            display: inline-block;
+            width: 2px;
+            height: 11px;
+            background-color: #2b2b2b;
+          }
+        }
+      }
+      .register__login__line {
+        width: 1px;
+        height: 30px;
+        background-color: lightgray;
+      }
+    }
+  }
+
+  .menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    .menu__right {
+      direction: rtl;
+      width: 100%;
+      height: inherit;
+      padding-right: 20px;
+      .nav {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        .nav__item {
+          width: fit-content;
+          height: inherit;
+          position: relative;
+          .nav__item__link {
+            display: block;
+            width: inherit;
+            height: inherit;
+            text-decoration: none;
+            font-family: var(--fontFamily);
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 40px;
+            color: #2b2b2b;
+            padding: 0 10px;
+            align-items: center;
+            svg {
+              padding-top: 6px;
+            }
+          }
+          .nav__item__dropdown {
+            width: 53vw;
+            height: 710px;
+            position: absolute;
+            background-color: white;
+            display: none;
+            .nav__item__dropdown__right {
+              width: 22%;
+              height: 100%;
+              background-color: #f5f5f5;
+              overflow: auto;
+              direction: ltr;
+              .nav__item__dropdown__right__item {
+                width: 100%;
+                height: 40px;
+                .nav__item__dropdown__right__item__link {
+                  display: block;
+                  width: 100%;
+                  height: inherit;
+                  line-height: 40px;
+                  text-decoration: none;
+                  font-family: var(--fontFamily);
+                  font-size: 11px;
+                  text-align: right;
+                  margin-top: 10px;
+                  color: #2b2b2b;
+                  align-items: center !important;
+                  &:hover {
+                    background-color: white;
+                  }
+                  svg {
+                    margin-bottom: -7px;
+                    width: 24px !important;
+                    height: 24px !important;
+                  }
+                }
+                .nav__item__dropdown__right__item__link__dropdown {
+                  width: 78%;
+                  height: 100%;
+                  position: absolute;
+                  background-color: white;
+                  left: 0;
+                  top: 0;
+                  display: flex;
+                  justify-content: flex-start;
+                  flex-flow: row wrap;
+                  .nav__item__dropdown__right__item__link__dropdown__item {
+                    width: 50%;
+                    height: 100%;
+                    border: #2b2b2b;
+                  }
+                }
+              }
+            }
+          }
+          &:hover .nav__item__dropdown {
+            display: block;
+          }
+        }
+      }
+    }
+    .menu__center {
+      display: flex;
+      margin-right: -1820px;
+      margin-top: 12px;
+      margin-left: 190px;
+      width: 80%;
+      height: 40px;
+      .nav {
+        display: flex;
+        flex-flow: row nowrap;
+        margin-right: 400px;
+
+        .menu__center__item {
+          margin-right: 20px;
+          display: flex;
+          a {
+            height: 32px;
+            display: flex;
+            text-decoration: none;
+            color: rgb(88, 88, 88);
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            transition: 100ms;
+            &:hover {
+              border-bottom: 2px solid red;
+            }
+          }
+          svg {
+            display: flex;
+            padding-bottom: 2px;
+          }
+        }
+      }
+    }
+    .menu__left {
+      width: 30%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+
+      font-family: var(--fontFamily);
+      font-size: 11px;
+      column-gap: 5px;
+      color: rgb(69, 68, 68);
+      svg {
+        margin-top: -5px;
+      }
+      &:hover {
+      }
+    }
+  }
+}

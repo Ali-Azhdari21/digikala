@@ -1,0 +1,69 @@
+@import "./setting.css";
+.login {
+  direction: rtl;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfdbdb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  width: 400px;
+  height: 450px;
+  border-radius: 7px;
+  .svg {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .login__center {
+    font-family: var(--fontFamily);
+    margin-right: 30px;
+    margin-top: 20px;
+    h1 {
+      display: flex;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 700;
+      column-gap: 5px;
+      line-height: 45px;
+    }
+    p {
+      margin-top: 27px !important;
+      font-size: 12px;
+      line-height: 26px;
+    }
+    .input {
+      width: 330px;
+      height: 50px;
+      border: 1px solid #dfdbdb;
+      border-radius: 9px;
+      margin-top: 15px;
+      margin-right: 3px;
+    }
+    div {
+      font-size: 13px;
+      color: white;
+      background-color: #ef4056;
+      width: 330px;
+      height: 50px;
+      border: 1px solid #e8e1e1;
+      border-radius: 9px;
+      margin-top: 30px;
+      margin-right: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    p {
+      font-size: 11px;
+      margin-top: 12px !important;
+      margin-right: 5px;
+      a {
+        color: #6ca5db;
+        text-decoration: none;
+      }
+    }
+  }
+}

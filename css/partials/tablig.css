@@ -1,0 +1,17 @@
+.tablig__slide {
+  margin-right: 108px;
+  margin-top: 40px;
+  .tablig__slide__center {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+    margin-top: 10px;
+    img {
+      border-radius: 15px;
+      width: 660px;
+      height: 260px;
+      margin-right: 10px;
+    }
+  }
+}

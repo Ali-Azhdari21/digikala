@@ -1,0 +1,35 @@
+.mmenu {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  .mmenu__center {
+    width: 75%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    .mmenu__center__item {
+      width: fit-content;
+      display: flex;
+      flex-flow: column wrap;
+      padding-top: 30px;
+      .svg {
+        margin-left: 10px;
+        background-color: black;
+      }
+      img {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 10px;
+      }
+      span {
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        display: inline-block;
+        width: 52px;
+        text-align: center;
+      }
+    }
+  }
+}

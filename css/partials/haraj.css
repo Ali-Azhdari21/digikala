@@ -1,0 +1,74 @@
+.haraj {
+  width: 1336px;
+  height: 840px;
+  border-radius: 15px;
+  border: 1px solid #e0e0e2;
+  margin-right: 175px;
+  margin-top: 18px !important;
+  .haraj__center {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    svg {
+      size: 10px;
+      margin-right: 5px;
+    }
+    p {
+      margin-right: 5px;
+      font-family: var(--fontFamily);
+      font-size: 20px;
+    }
+  }
+}
+.haraj__center__item {
+  border-bottom: 1px solid rgb(225, 220, 220);
+  margin-right: 20px;
+  width: 195px;
+  height: 25%;
+  margin-top: 40px;
+  display: inline-flex;
+  justify-content: end;
+  a {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    img {
+      display: flex !important;
+      width: 150px;
+      height: 150px;
+    }
+    .discont_price {
+      display: flex;
+      margin: 0 10px;
+      span1 {
+        font-family: var(--fontSohrab);
+        font-weight: bold;
+        display: flex;
+        margin-top: 5px;
+        margin-right: 30px;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #d32f2f;
+        color: #ffffff;
+        width: 33px;
+        height: 20px;
+        border-radius: 30px;
+        font-family: var(--fontSohrab);
+        font-weight: bold;
+      }
+      svg {
+        margin-top: 7px;
+      }
+    }
+    .price {
+      font-family: var(--fontSohrab);
+      text-decoration-line: line-through;
+     color: #C0C2C5;
+     margin-right: 60px;
+    }
+  }
+}
